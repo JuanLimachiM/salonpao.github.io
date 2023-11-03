@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Peluquería</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza un archivo CSS externo para los estilos -->
+</head>
+<body>
+    <header class="hero">
+        <h1>Bienvenidos a Tu Peluquería</h1>
+        <p>Tu estilo, nuestra pasión</p>
+    </header>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#gallery">Galería</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="services" class="services-section">
+            <h2>Nuestros Servicios</h2>
+            <div class="service">
+                <img src="manicure.jpg" alt="Corte de Pelo">
+                <h3>Corte de Pelo</h3>
+                <p>Te ofrecemos los cortes de pelo más modernos y elegantes.</p>
+            </div>
+            <div class="service">
+                <img src="corte-pelo.jpg" alt="Coloración">
+                <h3>Coloración</h3>
+                <p>Realzamos tu belleza con una amplia gama de opciones de coloración.</p>
+            </div>
+            <div class="service">
+                <img src="coloracion.jpg" alt="Manicure y Pedicure">
+                <h3>Manicure y Pedicure</h3>
+                <p>Cuida tus manos y pies con nuestros servicios de manicure y pedicure.</p>
+            </div>
+        </section>
+        
+        <section id="gallery" class="gallery-section">
+            <h2>Galería</h2>
+            <!-- Aquí puedes agregar una galería de imágenes de tus trabajos -->
+        </section>
+        
+        <section id="contact" class="contact-section">
+            <h2>Contacto</h2>
+            <p>Estamos ubicados en <strong>EN La Paz - Bolivia</strong>.</p>
+            <p>Puedes comunicarte con nosotros al teléfono: <strong>+591 69933930</strong>.</p>
+            <p>O escríbenos a nuestro correo: <strong>paoninamayt@salonpao.com</strong></p>
+            
+            <!-- Formulario de contacto -->
+            <form action="enviar_formulario.php" method="post">
+                <label for="nombre">puedes suscribirte para una atencion mas precisa</label>
+
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+        <!-- 
+                <section>      
+               <div class="customize-buttons">
+                    <button id="changeBackgroundColor">Cambiar Color de Fondo</button>
+                    <button id="changeTextColor">Cambiar Color de Texto</button>
+                    <button id="changeHaircutImage">Cambiar Imagen de Corte de Pelo</button>
+                    <button id="changeColorImage">Cambiar Imagen de Coloración</button>
+                    <button id="changeManicureImage">Cambiar Imagen de Manicure y Pedicure</button>
+                    
+                </div>
+
+            </section>  
+-->
+            </form>
+        </section>
+    </div>
+</body>
+</html>

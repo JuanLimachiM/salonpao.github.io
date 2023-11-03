@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+.hero {
+    background-color: #ff6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+/* Estilos del menú de navegación */
+.navbar {
+    background-color: #333;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos de los servicios */
+.services-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    color: #ff6b6b;
+}
+
+/* Estilos del formulario de contacto */
+.contact-section {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Estilos para la sección en la esquina inferior izquierda */
+.customizezz-section {
+    position: fixed;
+    bottom: 10px; /* Ajusta la distancia desde la parte inferior de la página */
+    left: 10px; /* Ajusta la distancia desde el borde izquierdo de la página */
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 999; /* Para asegurarse de que estén por encima del contenido principal */
+}
+
+/* Estilos para los botones dentro de la sección */
+.customizezz-section button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de botones de personalización en la esquina superior derecha */
+.customize-buttons {
+    position: fixed;
+    top: 10px; /* Ajusta la distancia desde la parte superior de la página */
+    right: 10px; /* Ajusta la distancia desde el borde derecho de la página */
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 999; /* Para asegurarse de que estén por encima del contenido principal */
+}
+
+.customize-buttons button {
+    display: block;
+    margin-bottom: 10px;
+}
+
